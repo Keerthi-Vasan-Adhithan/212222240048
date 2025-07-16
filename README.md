@@ -22,23 +22,17 @@ Coarse-grained geographical location
 8) Mock logging middleware integration
 
 # Tech Stack
-React.js
-
-React Router
-
-Material UI (MUI)
-
-Axios (for API/mocking)
-
-Git & GitHub (version control)
-
-📂 Project Structure
-pgsql
-Copy
-Edit
+```
+-React.js
+-React Router
+-Material UI (MUI)
+-Axios (for API/mocking)
+-Git & GitHub (version control)
+```
+# Project Structure
+```
 url-shortener/
 ├── src/
-│   ├── components/
 │   ├── pages/
 │   │   ├── ShortenerPage.js
 │   │   └── StatisticsPage.js
@@ -50,43 +44,9 @@ url-shortener/
 ├── package.json
 ├── README.md
 └── .gitignore
-🧪 How to Run Locally
-Clone the Repository
+```
 
-bash
-Copy
-Edit
-git clone https://github.com/Keerthi-Vasan-Adhithan/212222240048.git
-cd 212222240048/url-shortener
-Install Dependencies
+# Output:
 
-bash
-Copy
-Edit
-npm install
-Start the App
+<img width="1919" height="876" alt="image" src="https://github.com/user-attachments/assets/626113c9-1ac8-4e09-932d-06d77f43c70a" />
 
-bash
-Copy
-Edit
-npm start
-Visit http://localhost:3000 in your browser.
-
-🧠 Requirements Fulfilled
-✅ Shorten links with optional shortcode and expiry
-
-✅ Display original and shortened URLs with creation/expiry dates
-
-✅ Click tracking with timestamp, referrer, and location
-
-✅ Client-side validation for inputs
-
-✅ Material UI used throughout
-
-✅ Mock Logging Middleware (as required)
-
-✅ No login/auth required
-
-✅ All shortcodes are unique
-
-✅ Clean UI and routing with React Router
