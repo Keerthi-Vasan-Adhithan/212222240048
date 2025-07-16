@@ -21,7 +21,7 @@ Coarse-grained geographical location
 7) Fully styled using Material UI
 8) Mock logging middleware integration
 
-# Tech Stack
+### Tech Stack
 ```
 -React.js
 -React Router
@@ -29,7 +29,7 @@ Coarse-grained geographical location
 -Axios (for API/mocking)
 -Git & GitHub (version control)
 ```
-# Project Structure
+### Project Structure
 ```
 url-shortener/
 ├── src/
@@ -46,7 +46,7 @@ url-shortener/
 └── .gitignore
 ```
 
-# Output:
+### Output:
 
 <img width="1919" height="876" alt="image" src="https://github.com/user-attachments/assets/626113c9-1ac8-4e09-932d-06d77f43c70a" />
 
