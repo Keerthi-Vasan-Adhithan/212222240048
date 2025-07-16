@@ -48,5 +48,5 @@ url-shortener/
 
 ### Output:
 
-<img width="1919" height="876" alt="image" src="https://github.com/user-attachments/assets/626113c9-1ac8-4e09-932d-06d77f43c70a" />
+<img width="1919" height="871" alt="image" src="https://github.com/user-attachments/assets/5c0ca3d8-0e76-4971-9b9a-33b47b949a14" />
 
