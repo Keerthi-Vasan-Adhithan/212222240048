@@ -1,3 +1,10 @@
+/* Body background gradient */
+body {
+    background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+    min-height: 100vh;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +42,75 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.MuiContainer-root {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(60, 60, 120, 0.15);
+    padding: 32px 24px;
+    margin-top: 40px;
+}
+
+.MuiTypography-h4, .MuiTypography-h5 {
+    font-weight: 700;
+    color: #2d3a4a;
+    letter-spacing: 1px;
+}
+
+.MuiTypography-body2 {
+    color: #6c7a89;
+}
+
+.MuiPaper-root {
+    border-radius: 14px;
+    box-shadow: 0 4px 16px rgba(60, 60, 120, 0.10);
+    background: linear-gradient(120deg, #f8fafc 80%, #e3eafc 100%);
+}
+
+.MuiButton-root {
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background 0.2s, box-shadow 0.2s;
+}
+
+.MuiButton-contained {
+    background: linear-gradient(90deg, #4f8cff 60%, #38c6ff 100%);
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(60, 60, 120, 0.10);
+}
+
+.MuiButton-contained:hover {
+    background: linear-gradient(90deg, #38c6ff 60%, #4f8cff 100%);
+    box-shadow: 0 4px 16px rgba(60, 60, 120, 0.18);
+}
+
+/* TextField focus effect */
+.MuiInputBase-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #4f8cff;
+}
+
+@media (max-width: 600px) {
+    .MuiContainer-root {
+        padding: 12px 4px;
+        margin-top: 12px;
+    }
+    .MuiPaper-root {
+        padding: 8px;
+    }
+}
+
+a, .MuiLink-root {
+    color: #4f8cff;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+a:hover, .MuiLink-root:hover {
+    color: #38c6ff;
+}
+
+.MuiAlert-root {
+    border-radius: 8px;
+    font-size: 1rem;
+    background: linear-gradient(90deg, #ffe0e0 60%, #fff8f8 100%);
 }
